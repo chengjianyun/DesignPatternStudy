@@ -1,4 +1,4 @@
-package study.java.designpattern.start;
+package study.java.designpattern.strategy;
 
 public class MallardDuck extends Duck {
 
