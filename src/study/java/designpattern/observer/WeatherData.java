@@ -111,5 +111,4 @@ public class WeatherData extends Observable {
 		setTemperature(temperature);
 		measurementsChanged();
 	}
-
 }
