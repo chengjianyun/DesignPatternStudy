@@ -1,5 +1,7 @@
 package study.java.designpattern.command;
 
+import java.util.Observable;
+
 import study.java.main.Test;
 
 public class CommandTest implements Test {
@@ -7,6 +9,7 @@ public class CommandTest implements Test {
 	RemoteController remoteController;
 	GarbageDoor garbageDoor;
 	GarbageDoorOpenCommand gCommand;
+	private Observable aObservable;
 	
 	public CommandTest() {
 		// TODO Auto-generated constructor stub
