@@ -11,10 +11,10 @@ public class JavaProgramTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//this is decorator test code
-		Beverage beverage = new Espresso();
+		Beverage beverage = new Espresso(2);
 		System.out.println(beverage.getDescription()+" $"+beverage.cost());
 		
-		Beverage beverage2=new DarkRoast();
+		Beverage beverage2=new DarkRoast(2);	
 		beverage2=new Mocha(beverage2);
 		beverage2=new Mocha(beverage2);
 		beverage2=new Whip(beverage2);

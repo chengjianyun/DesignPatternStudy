@@ -6,6 +6,7 @@ public class Espresso extends Beverage {
 		// TODO Auto-generated constructor stub
 		description="Espresso";
 	}
+	
 	public float cost() {
 		// TODO Auto-generated method stub
 		return (float) 1.99;
